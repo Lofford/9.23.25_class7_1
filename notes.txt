@@ -1,0 +1,27 @@
+Class 7_ Command line, File management, Git Hub
+
+9/23/25 Notes
+up pull sample files to git hub
+
+Gitbash - usage - terminal interacting directly with the computer
+Goal _ upload sample files from your computer to a Github repo, using Gitbash (windows) or terminal (Mac)
+
+- pwd - print working directory 
+- ls - what files are in this current folder
+- cd - change directory  have (/) at the end
+- clear - clears terminal
+- cd .. - back out
+- tab - suto fill current folder files
+- mkdir - make folder
+- touch lizzo.txt (create a file)
+- rm lizzo .txt (remove a file)
+
+### or create a new repository on the command line
+
+echo "# 9.23.25_class7_1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Lofford/9.23.25_class7_1.git
+git push -u origin main
